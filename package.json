@@ -1,0 +1,35 @@
+{
+  "name": "mind-tweet",
+  "version": "1.0.0",
+  "description": "🐦 Send a Tweet with your mind 🤯",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcastillo/mind-tweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "tweet",
+    "bci",
+    "neurosity",
+    "push",
+    "mind",
+    "eeg"
+  ],
+  "author": "Alex Castillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcastillo/mind-tweet/issues"
+  },
+  "homepage": "https://github.com/alexcastillo/mind-tweet#readme",
+  "dependencies": {
+    "@neurosity/notion": "^5.1.1",
+    "dotenv": "^8.2.0",
+    "rxjs": "^6.6.3",
+    "twitter-api-client": "^1.2.1",
+    "yargs": "^16.1.1"
+  }
+}
