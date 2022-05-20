@@ -2,6 +2,12 @@
 
 This Node.js application securely authenticates to your Neurosity headset and sends a pre-defined Tweet when you think of the "push" command via the [Kinesis API](https://docs.neurosity.co/docs/api/kinesis).
 
+Another script in this repo will update your Twitter profile with your focus score:
+
+```
+node ./live-focus-in-twitter-profile.js
+```
+
 > 💡 You'll need a [Neurosity account](https://console.neurosity.co) and a [Twitter Developer account](https://developer.twitter.com/en).
 
 ## Getting started
